@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #deae4f;
+}
+
+.wrapper {
+	margin-top: 10%;
+}
+
+.wrapper h1 {
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 52px;
+}
+
+.team {
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+
+.team .team_member {
+	background: #faf189;
+	width: 300px;
+	margin: 5px;
+	margin-bottom: 50px;
+	padding: 20px;
+	line-height: 20px;
+}
