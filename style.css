@@ -1,3 +1,12 @@
+@font-face {
+	font-family: font-1;
+	src: url(assets/Allura-Regular.ttf);
+}
+@font-face {
+	font-family: font-2;
+	src: url(assets/JosefinSans-VariableFont_wght.ttf);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,7 +14,8 @@
 }
 
 body {
-	background: #deae4f;
+	background: url(assets/bg.jpg) center/cover;
+	font-family: font-1;
 }
 
 .wrapper {
@@ -16,20 +26,64 @@ body {
 	text-align: center;
 	margin-bottom: 60px;
 	font-size: 52px;
+	color: beige;
+}
+
+.wrapper .team a {
+	text-decoration: none;
 }
 
 .team {
 	display: flex;
 	text-align: center;
 	width: auto;
-	justify-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .team .team_member {
-	background: #faf189;
-	width: 300px;
+	background: #3b4540;
+	width: 250px;
 	margin: 5px;
+	height: 470px;
 	margin-bottom: 50px;
 	padding: 20px;
 	line-height: 20px;
+	position: relative;
+	border-radius: 25px;
+}
+
+.team .team_member h2 {
+	color: rgb(137, 143, 21);
+	font-size: 26px;
+	margin-top: 50px;
+}
+
+.team .team_member p.Class {
+	font-size: 17px;
+	text-transform: uppercase;
+	margin: 12px 0px;
+	color: white;
+}
+
+.team .team_member p.description {
+	font-size: 1.4rem;
+	color: whitesmoke;
+}
+
+.team .team_member .team .team_member .team_img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	transform: translate(50%);
+	background: rgb(255, 255, 255);
+}
+
+.team .team_member .team_img img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	padding: 10px;
 }

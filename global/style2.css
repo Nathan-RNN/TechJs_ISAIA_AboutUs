@@ -1,0 +1,53 @@
+div.container-fluid {
+	margin-top: 100px;
+}
+div.cont {
+	height: 500px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.img.tony {
+	background-image: url(../assets/tony.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img.fenohery {
+	background-image: url(../assets/fenohery.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img.kael {
+	background-image: url(../assets/kael.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img.nathan {
+	background-image: url(../assets/nathan.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img.tommy {
+	background-image: url(../assets/lune.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+div.cont.text {
+	padding-top: 100px;
+}
+
+.btn {
+	width: 90px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: brown;
+	background: rgb(137, 40, 40);
+	text-decoration: none;
+	margin: 0 50%;
+	box-shadow: 3px 3px rgb(25, 2, 2);
+}
+.btn:hover {
+	color: whitesmoke;
+	background: rgb(206, 29, 29);
+}
